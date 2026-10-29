@@ -1,0 +1,8 @@
+{
+  "name": "RCA Skincare Management System",
+  "description": "Sistem Manajemen Klinik RCA Skincare: Laporan Keuangan, CRM Pelanggan, POS Kasir Multi-Cabang Produk & Treatment, Manajemen Jasa, Arus Kas & Multi-Format PDF/Excel Export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

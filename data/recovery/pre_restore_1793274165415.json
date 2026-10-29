@@ -1,0 +1,1717 @@
+{
+  "customers": [
+    {
+      "id": "c-001",
+      "customerCode": "RCA-CUST-001",
+      "namaLengkap": "drg. Amanda Putri Kartika",
+      "nomorTelepon": "081271234567",
+      "email": "amanda.putri@gmail.com",
+      "tanggalLahir": "1992-05-14",
+      "alamat": "Jl. Demang Lebar Daun No. 24, Palembang",
+      "tanggalRegistrasi": "2026-02-10",
+      "cabangPendaftaran": "spring-hill",
+      "persetujuanKomunikasi": true,
+      "catatanNonmedis": "VIP Member. Lebih menyukai jadwal sore hari setelah jam 16:00.",
+      "status": "active",
+      "createdAt": "2026-02-10T10:00:00Z",
+      "updatedAt": "2026-02-10T10:00:00Z",
+      "version": 1
+    },
+    {
+      "id": "c-002",
+      "customerCode": "RCA-CUST-002",
+      "namaLengkap": "Siti Rahmawati SE",
+      "nomorTelepon": "081368998877",
+      "email": "siti.rahma@yahoo.com",
+      "tanggalLahir": "1988-11-20",
+      "alamat": "Perumahan Bukit Sejahtera Blok CD-05, Palembang",
+      "tanggalRegistrasi": "2026-03-01",
+      "cabangPendaftaran": "sudirman",
+      "persetujuanKomunikasi": true,
+      "catatanNonmedis": "Kulit sensitif terhadap wewangian tertentu.",
+      "status": "active",
+      "createdAt": "2026-03-01T11:30:00Z",
+      "updatedAt": "2026-03-01T11:30:00Z",
+      "version": 1
+    },
+    {
+      "id": "c-003",
+      "customerCode": "RCA-CUST-003",
+      "namaLengkap": "Bella Novitasari",
+      "nomorTelepon": "082182001122",
+      "email": "bella.novita@gmail.com",
+      "tanggalLahir": "1999-08-04",
+      "alamat": "Jl. Merdeka Komp. Pemkab Banyuasin No. 18, Pangkalan Balai",
+      "tanggalRegistrasi": "2026-04-15",
+      "cabangPendaftaran": "pangkalan-balai",
+      "persetujuanKomunikasi": true,
+      "catatanNonmedis": "Mahasiswi, rutin acne routine bulanan.",
+      "status": "active",
+      "createdAt": "2026-04-15T09:15:00Z",
+      "updatedAt": "2026-04-15T09:15:00Z",
+      "version": 1
+    },
+    {
+      "id": "c-004",
+      "customerCode": "RCA-CUST-004",
+      "namaLengkap": "Nadia Safitri",
+      "nomorTelepon": "085273344556",
+      "email": "nadia.safitri@gmail.com",
+      "tanggalLahir": "1995-02-18",
+      "alamat": "Kenten City Palembang",
+      "tanggalRegistrasi": "2026-05-20",
+      "cabangPendaftaran": "spring-hill",
+      "persetujuanKomunikasi": false,
+      "catatanNonmedis": "Langganan facial signature sebelum acara penting.",
+      "status": "active",
+      "createdAt": "2026-05-20T14:20:00Z",
+      "updatedAt": "2026-05-20T14:20:00Z",
+      "version": 1
+    }
+  ],
+  "mergeLogs": [],
+  "products": [
+    {
+      "id": "prod-001",
+      "kodeProduk": "RCA-BR-01",
+      "namaProduk": "Brightening Facial Wash AHA/BHA 100ml",
+      "kategori": "Cleanser",
+      "merk": "RCA Clinical Skin",
+      "stokPerCabang": {
+        "spring-hill": 42,
+        "sudirman": 29,
+        "pangkalan-balai": 20
+      },
+      "hargaModal": 45000,
+      "hargaJual": 95000,
+      "minStok": 10,
+      "status": "active",
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T11:42:45.412Z"
+    },
+    {
+      "id": "prod-002",
+      "kodeProduk": "RCA-SRM-02",
+      "namaProduk": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+      "kategori": "Serum",
+      "merk": "RCA Clinical Skin",
+      "stokPerCabang": {
+        "spring-hill": 38,
+        "sudirman": 25,
+        "pangkalan-balai": 15
+      },
+      "hargaModal": 85000,
+      "hargaJual": 175000,
+      "minStok": 8,
+      "status": "active",
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T11:42:45.412Z"
+    },
+    {
+      "id": "prod-003",
+      "kodeProduk": "RCA-SUN-03",
+      "namaProduk": "UV Shield Physical Sunscreen SPF 50+ PA++++ 50g",
+      "kategori": "Sunscreen",
+      "merk": "RCA Clinical Skin",
+      "stokPerCabang": {
+        "spring-hill": 50,
+        "sudirman": 40,
+        "pangkalan-balai": 28
+      },
+      "hargaModal": 70000,
+      "hargaJual": 145000,
+      "minStok": 15,
+      "status": "active",
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z"
+    },
+    {
+      "id": "prod-004",
+      "kodeProduk": "RCA-CRM-04",
+      "namaProduk": "Ceramide Barrier Restoring Gel Cream 50g",
+      "kategori": "Moisturizer",
+      "merk": "RCA Clinical Skin",
+      "stokPerCabang": {
+        "spring-hill": 28,
+        "sudirman": 20,
+        "pangkalan-balai": 12
+      },
+      "hargaModal": 80000,
+      "hargaJual": 165000,
+      "minStok": 10,
+      "status": "active",
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z"
+    },
+    {
+      "id": "prod-005",
+      "kodeProduk": "RCA-ACN-05",
+      "namaProduk": "Acne Clarifying Intensive Spot Gel 15g",
+      "kategori": "Acne Solution",
+      "merk": "RCA Clinical Skin",
+      "stokPerCabang": {
+        "spring-hill": 35,
+        "sudirman": 18,
+        "pangkalan-balai": 22
+      },
+      "hargaModal": 50000,
+      "hargaJual": 110000,
+      "minStok": 10,
+      "status": "active",
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z"
+    },
+    {
+      "id": "prod-006",
+      "kodeProduk": "RCA-RET-06",
+      "namaProduk": "Advanced Retinol 0.5% Night Elixir 30ml",
+      "kategori": "Anti-Aging",
+      "merk": "RCA Clinical Skin",
+      "stokPerCabang": {
+        "spring-hill": 24,
+        "sudirman": 14,
+        "pangkalan-balai": 9
+      },
+      "hargaModal": 115000,
+      "hargaJual": 235000,
+      "minStok": 6,
+      "status": "active",
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-001",
+      "kodeJasa": "JS-FCL-01",
+      "namaJasa": "Signature Deep Pore Facial RCA",
+      "kategoriJasa": "Facial",
+      "deskripsi": "Pembersihan mendalam pori, ekstraksi komedo aseptik, serum oksigenasi, dan soothing rubber mask.",
+      "hargaDasar": 330000,
+      "durasiMenit": 60,
+      "petugasWewenang": [
+        "Senior Beautician",
+        "Junior Beautician",
+        "Terapis"
+      ],
+      "cabangPenyedia": [
+        "spring-hill",
+        "sudirman",
+        "pangkalan-balai"
+      ],
+      "status": "active",
+      "riwayatHarga": [
+        {
+          "date": "2026-10-29",
+          "changedBy": "QA Tester",
+          "oldPrice": 280000,
+          "newPrice": 330000,
+          "reason": "Uji Kenaikan Tarif"
+        },
+        {
+          "date": "2026-10-29",
+          "changedBy": "QA Tester",
+          "oldPrice": 230000,
+          "newPrice": 280000,
+          "reason": "Uji Kenaikan Tarif"
+        },
+        {
+          "date": "2026-10-29",
+          "changedBy": "QA Tester",
+          "oldPrice": 180000,
+          "newPrice": 230000,
+          "reason": "Uji Kenaikan Tarif"
+        },
+        {
+          "date": "2026-01-01",
+          "changedBy": "Admin Pusat",
+          "oldPrice": 165000,
+          "newPrice": 180000,
+          "reason": "Penyesuaian biaya serum import"
+        }
+      ],
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T11:42:45.413Z",
+      "version": 4
+    },
+    {
+      "id": "srv-002",
+      "kodeJasa": "JS-ACN-02",
+      "namaJasa": "Medical Acne Extraction & High-Frequency Therapy",
+      "kategoriJasa": "Acne Care",
+      "deskripsi": "Protokol steril ekstraksi jerawat, injeksi jerawat meradang, elektrokauter HF anti-bakteri P.acnes.",
+      "hargaDasar": 250000,
+      "durasiMenit": 75,
+      "petugasWewenang": [
+        "Dokter SpKK",
+        "Dokter Aesthetic",
+        "Senior Beautician"
+      ],
+      "cabangPenyedia": [
+        "spring-hill",
+        "sudirman",
+        "pangkalan-balai"
+      ],
+      "status": "active",
+      "riwayatHarga": [],
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z",
+      "version": 1
+    },
+    {
+      "id": "srv-003",
+      "kodeJasa": "JS-GLW-03",
+      "namaJasa": "Korean Glass Skin Meso Glow & Hydra-Infusion",
+      "kategoriJasa": "Peeling & Brightening",
+      "deskripsi": "Meso non-needle dengan infus PDRN Salmon DNA, Hyaluronic Acid mikro, dan Cryo Therapy pengencang.",
+      "hargaDasar": 450000,
+      "durasiMenit": 90,
+      "petugasWewenang": [
+        "Dokter SpKK",
+        "Dokter Aesthetic"
+      ],
+      "cabangPenyedia": [
+        "spring-hill",
+        "sudirman"
+      ],
+      "status": "active",
+      "riwayatHarga": [],
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z",
+      "version": 1
+    },
+    {
+      "id": "srv-004",
+      "kodeJasa": "JS-LSR-04",
+      "namaJasa": "Q-Switched Nd:YAG Laser Rejuvenation & Toning",
+      "kategoriJasa": "Anti-Aging & Laser",
+      "deskripsi": "Laser medis untuk memudarkan flek melasma, PIH bekas jerawat, mengecilkan pori, dan meratakan warna kulit.",
+      "hargaDasar": 650000,
+      "durasiMenit": 45,
+      "petugasWewenang": [
+        "Dokter SpKK",
+        "Dokter Aesthetic"
+      ],
+      "cabangPenyedia": [
+        "spring-hill"
+      ],
+      "status": "active",
+      "riwayatHarga": [],
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z",
+      "version": 1
+    },
+    {
+      "id": "srv-005",
+      "kodeJasa": "JS-DOC-05",
+      "namaJasa": "Konsultasi & Skin Analysis Dokter Spesialis",
+      "kategoriJasa": "Konsultasi Dokter",
+      "deskripsi": "Pemeriksaan komputerisasi dermoskopi 3D wajah dan rancangan personal regimen resep dokter.",
+      "hargaDasar": 100000,
+      "durasiMenit": 30,
+      "petugasWewenang": [
+        "Dokter SpKK",
+        "Dokter Aesthetic"
+      ],
+      "cabangPenyedia": [
+        "spring-hill",
+        "sudirman",
+        "pangkalan-balai"
+      ],
+      "status": "active",
+      "riwayatHarga": [],
+      "createdAt": "2026-10-29T10:50:00.626Z",
+      "updatedAt": "2026-10-29T10:50:00.626Z",
+      "version": 1
+    }
+  ],
+  "transactions": [
+    {
+      "id": "trx-1793274165412-oxgbd",
+      "invoiceNumber": "INV/PKB/20261029/0004",
+      "branchId": "pangkalan-balai",
+      "customerId": "WALK-IN",
+      "isWalkIn": true,
+      "items": [
+        {
+          "id": "item-1793274165412-soco",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-002",
+          "snapshotKode": "RCA-SRM-02",
+          "snapshotNama": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+          "snapshotHargaSatuan": 175000,
+          "snapshotHargaModal": 85000,
+          "kuantitas": 2,
+          "diskon": 0,
+          "subtotal": 350000
+        }
+      ],
+      "subtotalProduk": 350000,
+      "subtotalJasa": 0,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 350000,
+      "totalHpp": 170000,
+      "nominalBayar": 350000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "REFUNDED",
+      "kasirName": "QA Kasir",
+      "idempotencyKey": "test-refund-key-1793274165412",
+      "createdAt": "2026-10-29T11:42:45.412Z",
+      "updatedAt": "2026-10-29T11:42:45.412Z",
+      "refundRecord": {
+        "refundId": "ref-1793274165412",
+        "originalInvoiceNumber": "INV/PKB/20261029/0004",
+        "amount": 350000,
+        "reason": "Barang salah beli oleh customer",
+        "refundedAt": "2026-10-29T11:42:45.412Z",
+        "refundedBy": "QA Tester",
+        "refundItems": [
+          {
+            "itemId": "item-1793274165412-soco",
+            "nama": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+            "qty": 2,
+            "amount": 350000
+          }
+        ]
+      }
+    },
+    {
+      "id": "trx-1793274165412-2036d",
+      "invoiceNumber": "INV/SDR/20261029/0003",
+      "branchId": "sudirman",
+      "customerId": "WALK-IN",
+      "isWalkIn": true,
+      "items": [
+        {
+          "id": "item-1793274165412-veot",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-001",
+          "snapshotKode": "RCA-BR-01",
+          "snapshotNama": "Brightening Facial Wash AHA/BHA 100ml",
+          "snapshotHargaSatuan": 95000,
+          "snapshotHargaModal": 45000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 95000
+        }
+      ],
+      "subtotalProduk": 95000,
+      "subtotalJasa": 0,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 95000,
+      "totalHpp": 45000,
+      "nominalBayar": 95000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "COMPLETED",
+      "kasirName": "QA Kasir",
+      "idempotencyKey": "test-idemp-duplicate-prevention-1793274165412",
+      "createdAt": "2026-10-29T11:42:45.412Z",
+      "updatedAt": "2026-10-29T11:42:45.412Z"
+    },
+    {
+      "id": "trx-1793274165411-cck3k",
+      "invoiceNumber": "INV/SH/20261029/0004",
+      "branchId": "spring-hill",
+      "customerId": "c-001",
+      "isWalkIn": false,
+      "customerSnapshot": {
+        "nama": "Test Customer QA",
+        "telepon": "081200000000"
+      },
+      "items": [
+        {
+          "id": "item-1793274165411-z1t4",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-001",
+          "snapshotKode": "RCA-BR-01",
+          "snapshotNama": "Brightening Facial Wash AHA/BHA 100ml",
+          "snapshotHargaSatuan": 95000,
+          "snapshotHargaModal": 45000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 95000
+        },
+        {
+          "id": "item-1793274165411-e2s5",
+          "itemType": "SERVICE",
+          "referenceId": "srv-001",
+          "snapshotKode": "JS-FCL-01",
+          "snapshotNama": "Signature Deep Pore Facial RCA",
+          "snapshotHargaSatuan": 280000,
+          "snapshotHargaModal": 0,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 280000,
+          "petugasDokter": "dr. Test SpKK"
+        }
+      ],
+      "subtotalProduk": 95000,
+      "subtotalJasa": 280000,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 375000,
+      "totalHpp": 45000,
+      "nominalBayar": 375000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "COMPLETED",
+      "kasirName": "QA Kasir Tester",
+      "idempotencyKey": "qa-idemp-1793274165411",
+      "createdAt": "2026-10-29T11:42:45.411Z",
+      "updatedAt": "2026-10-29T11:42:45.411Z"
+    },
+    {
+      "id": "trx-1793274128476-7ypux",
+      "invoiceNumber": "INV/PKB/20261029/0003",
+      "branchId": "pangkalan-balai",
+      "customerId": "WALK-IN",
+      "isWalkIn": true,
+      "items": [
+        {
+          "id": "item-1793274128476-funa",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-002",
+          "snapshotKode": "RCA-SRM-02",
+          "snapshotNama": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+          "snapshotHargaSatuan": 175000,
+          "snapshotHargaModal": 85000,
+          "kuantitas": 2,
+          "diskon": 0,
+          "subtotal": 350000
+        }
+      ],
+      "subtotalProduk": 350000,
+      "subtotalJasa": 0,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 350000,
+      "totalHpp": 170000,
+      "nominalBayar": 350000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "REFUNDED",
+      "kasirName": "QA Kasir",
+      "idempotencyKey": "test-refund-key-1793274128476",
+      "createdAt": "2026-10-29T11:42:08.476Z",
+      "updatedAt": "2026-10-29T11:42:08.476Z",
+      "refundRecord": {
+        "refundId": "ref-1793274128476",
+        "originalInvoiceNumber": "INV/PKB/20261029/0003",
+        "amount": 350000,
+        "reason": "Barang salah beli oleh customer",
+        "refundedAt": "2026-10-29T11:42:08.476Z",
+        "refundedBy": "QA Tester",
+        "refundItems": [
+          {
+            "itemId": "item-1793274128476-funa",
+            "nama": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+            "qty": 2,
+            "amount": 350000
+          }
+        ]
+      }
+    },
+    {
+      "id": "trx-1793274128476-b7mua",
+      "invoiceNumber": "INV/SDR/20261029/0002",
+      "branchId": "sudirman",
+      "customerId": "WALK-IN",
+      "isWalkIn": true,
+      "items": [
+        {
+          "id": "item-1793274128476-gh1r",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-001",
+          "snapshotKode": "RCA-BR-01",
+          "snapshotNama": "Brightening Facial Wash AHA/BHA 100ml",
+          "snapshotHargaSatuan": 95000,
+          "snapshotHargaModal": 45000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 95000
+        }
+      ],
+      "subtotalProduk": 95000,
+      "subtotalJasa": 0,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 95000,
+      "totalHpp": 45000,
+      "nominalBayar": 95000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "COMPLETED",
+      "kasirName": "QA Kasir",
+      "idempotencyKey": "test-idemp-duplicate-prevention-1793274128476",
+      "createdAt": "2026-10-29T11:42:08.476Z",
+      "updatedAt": "2026-10-29T11:42:08.476Z"
+    },
+    {
+      "id": "trx-1793274128475-bq5m7",
+      "invoiceNumber": "INV/SH/20261029/0003",
+      "branchId": "spring-hill",
+      "customerId": "c-001",
+      "isWalkIn": false,
+      "customerSnapshot": {
+        "nama": "Test Customer QA",
+        "telepon": "081200000000"
+      },
+      "items": [
+        {
+          "id": "item-1793274128475-j96q",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-001",
+          "snapshotKode": "RCA-BR-01",
+          "snapshotNama": "Brightening Facial Wash AHA/BHA 100ml",
+          "snapshotHargaSatuan": 95000,
+          "snapshotHargaModal": 45000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 95000
+        },
+        {
+          "id": "item-1793274128475-fou3",
+          "itemType": "SERVICE",
+          "referenceId": "srv-001",
+          "snapshotKode": "JS-FCL-01",
+          "snapshotNama": "Signature Deep Pore Facial RCA",
+          "snapshotHargaSatuan": 230000,
+          "snapshotHargaModal": 0,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 230000,
+          "petugasDokter": "dr. Test SpKK"
+        }
+      ],
+      "subtotalProduk": 95000,
+      "subtotalJasa": 230000,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 325000,
+      "totalHpp": 45000,
+      "nominalBayar": 325000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "COMPLETED",
+      "kasirName": "QA Kasir Tester",
+      "idempotencyKey": "qa-idemp-1793274128475",
+      "createdAt": "2026-10-29T11:42:08.475Z",
+      "updatedAt": "2026-10-29T11:42:08.475Z"
+    },
+    {
+      "id": "trx-1793273284510-wjjn0",
+      "invoiceNumber": "INV/PKB/20261029/0002",
+      "branchId": "pangkalan-balai",
+      "customerId": "WALK-IN",
+      "isWalkIn": true,
+      "items": [
+        {
+          "id": "item-1793273284510-qiu6",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-002",
+          "snapshotKode": "RCA-SRM-02",
+          "snapshotNama": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+          "snapshotHargaSatuan": 175000,
+          "snapshotHargaModal": 85000,
+          "kuantitas": 2,
+          "diskon": 0,
+          "subtotal": 350000
+        }
+      ],
+      "subtotalProduk": 350000,
+      "subtotalJasa": 0,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 350000,
+      "totalHpp": 170000,
+      "nominalBayar": 350000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "REFUNDED",
+      "kasirName": "QA Kasir",
+      "idempotencyKey": "test-refund-key-1793273284510",
+      "createdAt": "2026-10-29T11:28:04.510Z",
+      "updatedAt": "2026-10-29T11:28:04.511Z",
+      "refundRecord": {
+        "refundId": "ref-1793273284511",
+        "originalInvoiceNumber": "INV/PKB/20261029/0002",
+        "amount": 350000,
+        "reason": "Barang salah beli oleh customer",
+        "refundedAt": "2026-10-29T11:28:04.511Z",
+        "refundedBy": "QA Tester",
+        "refundItems": [
+          {
+            "itemId": "item-1793273284510-qiu6",
+            "nama": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+            "qty": 2,
+            "amount": 350000
+          }
+        ]
+      }
+    },
+    {
+      "id": "trx-1793273284510-fpn0s",
+      "invoiceNumber": "INV/SDR/20261029/0001",
+      "branchId": "sudirman",
+      "customerId": "WALK-IN",
+      "isWalkIn": true,
+      "items": [
+        {
+          "id": "item-1793273284510-tab7",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-001",
+          "snapshotKode": "RCA-BR-01",
+          "snapshotNama": "Brightening Facial Wash AHA/BHA 100ml",
+          "snapshotHargaSatuan": 95000,
+          "snapshotHargaModal": 45000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 95000
+        }
+      ],
+      "subtotalProduk": 95000,
+      "subtotalJasa": 0,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 95000,
+      "totalHpp": 45000,
+      "nominalBayar": 95000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "COMPLETED",
+      "kasirName": "QA Kasir",
+      "idempotencyKey": "test-idemp-duplicate-prevention-1793273284510",
+      "createdAt": "2026-10-29T11:28:04.510Z",
+      "updatedAt": "2026-10-29T11:28:04.510Z"
+    },
+    {
+      "id": "trx-1793273284510-5nmja",
+      "invoiceNumber": "INV/SH/20261029/0002",
+      "branchId": "spring-hill",
+      "customerId": "c-001",
+      "isWalkIn": false,
+      "customerSnapshot": {
+        "nama": "Test Customer QA",
+        "telepon": "081200000000"
+      },
+      "items": [
+        {
+          "id": "item-1793273284510-vins",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-001",
+          "snapshotKode": "RCA-BR-01",
+          "snapshotNama": "Brightening Facial Wash AHA/BHA 100ml",
+          "snapshotHargaSatuan": 95000,
+          "snapshotHargaModal": 45000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 95000
+        },
+        {
+          "id": "item-1793273284510-y6v9",
+          "itemType": "SERVICE",
+          "referenceId": "srv-001",
+          "snapshotKode": "JS-FCL-01",
+          "snapshotNama": "Signature Deep Pore Facial RCA",
+          "snapshotHargaSatuan": 180000,
+          "snapshotHargaModal": 0,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 180000,
+          "petugasDokter": "dr. Test SpKK"
+        }
+      ],
+      "subtotalProduk": 95000,
+      "subtotalJasa": 180000,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 275000,
+      "totalHpp": 45000,
+      "nominalBayar": 275000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "COMPLETED",
+      "kasirName": "QA Kasir Tester",
+      "idempotencyKey": "qa-idemp-1793273284509",
+      "createdAt": "2026-10-29T11:28:04.510Z",
+      "updatedAt": "2026-10-29T11:28:04.510Z"
+    },
+    {
+      "id": "trx-sh-001",
+      "invoiceNumber": "INV/SH/20261028/0001",
+      "branchId": "spring-hill",
+      "customerId": "c-001",
+      "isWalkIn": false,
+      "customerSnapshot": {
+        "nama": "drg. Amanda Putri Kartika",
+        "telepon": "081271234567",
+        "code": "RCA-CUST-001"
+      },
+      "items": [
+        {
+          "id": "item-1",
+          "itemType": "SERVICE",
+          "referenceId": "srv-003",
+          "snapshotKode": "JS-GLW-03",
+          "snapshotNama": "Korean Glass Skin Meso Glow & Hydra-Infusion",
+          "snapshotHargaSatuan": 450000,
+          "snapshotHargaModal": 0,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 450000,
+          "petugasDokter": "dr. Nadira SpKK"
+        },
+        {
+          "id": "item-2",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-002",
+          "snapshotKode": "RCA-SRM-02",
+          "snapshotNama": "Glow Radiance Serum Niacinamide 10% + Zinc 30ml",
+          "snapshotHargaSatuan": 175000,
+          "snapshotHargaModal": 85000,
+          "kuantitas": 1,
+          "diskon": 10000,
+          "subtotal": 165000
+        },
+        {
+          "id": "item-3",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-003",
+          "snapshotKode": "RCA-SUN-03",
+          "snapshotNama": "UV Shield Physical Sunscreen SPF 50+ PA++++ 50g",
+          "snapshotHargaSatuan": 145000,
+          "snapshotHargaModal": 70000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 145000
+        }
+      ],
+      "subtotalProduk": 310000,
+      "subtotalJasa": 450000,
+      "totalDiskon": 10000,
+      "pajak": 0,
+      "totalTagihan": 760000,
+      "totalHpp": 155000,
+      "nominalBayar": 760000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "QRIS",
+      "akunKas": "Bank BCA Operasional",
+      "status": "COMPLETED",
+      "kasirName": "Kasir Rina (Spring Hill)",
+      "shiftId": "shift-sh-01",
+      "idempotencyKey": "idemp-sh-001",
+      "createdAt": "2026-10-28T11:45:00+07:00",
+      "updatedAt": "2026-10-28T11:45:00+07:00"
+    },
+    {
+      "id": "trx-sdr-002",
+      "invoiceNumber": "INV/SDR/20261028/0002",
+      "branchId": "sudirman",
+      "customerId": "c-002",
+      "isWalkIn": false,
+      "customerSnapshot": {
+        "nama": "Siti Rahmawati SE",
+        "telepon": "081368998877",
+        "code": "RCA-CUST-002"
+      },
+      "items": [
+        {
+          "id": "item-4",
+          "itemType": "SERVICE",
+          "referenceId": "srv-001",
+          "snapshotKode": "JS-FCL-01",
+          "snapshotNama": "Signature Deep Pore Facial RCA",
+          "snapshotHargaSatuan": 180000,
+          "snapshotHargaModal": 0,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 180000,
+          "petugasDokter": "Beautician Wulan"
+        },
+        {
+          "id": "item-5",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-001",
+          "snapshotKode": "RCA-BR-01",
+          "snapshotNama": "Brightening Facial Wash AHA/BHA 100ml",
+          "snapshotHargaSatuan": 95000,
+          "snapshotHargaModal": 45000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 95000
+        }
+      ],
+      "subtotalProduk": 95000,
+      "subtotalJasa": 180000,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 275000,
+      "totalHpp": 45000,
+      "nominalBayar": 300000,
+      "kembalian": 25000,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "status": "COMPLETED",
+      "kasirName": "Kasir Dimas (Sudirman)",
+      "shiftId": "shift-sdr-01",
+      "idempotencyKey": "idemp-sdr-002",
+      "createdAt": "2026-10-28T14:15:00+07:00",
+      "updatedAt": "2026-10-28T14:15:00+07:00"
+    },
+    {
+      "id": "trx-pkb-003",
+      "invoiceNumber": "INV/PKB/20261029/0001",
+      "branchId": "pangkalan-balai",
+      "customerId": "c-003",
+      "isWalkIn": false,
+      "customerSnapshot": {
+        "nama": "Bella Novitasari",
+        "telepon": "082182001122",
+        "code": "RCA-CUST-003"
+      },
+      "items": [
+        {
+          "id": "item-6",
+          "itemType": "SERVICE",
+          "referenceId": "srv-002",
+          "snapshotKode": "JS-ACN-02",
+          "snapshotNama": "Medical Acne Extraction & High-Frequency Therapy",
+          "snapshotHargaSatuan": 250000,
+          "snapshotHargaModal": 0,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 250000,
+          "petugasDokter": "dr. Fajar Aesthetic"
+        },
+        {
+          "id": "item-7",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-005",
+          "snapshotKode": "RCA-ACN-05",
+          "snapshotNama": "Acne Clarifying Intensive Spot Gel 15g",
+          "snapshotHargaSatuan": 110000,
+          "snapshotHargaModal": 50000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 110000
+        }
+      ],
+      "subtotalProduk": 110000,
+      "subtotalJasa": 250000,
+      "totalDiskon": 0,
+      "pajak": 0,
+      "totalTagihan": 360000,
+      "totalHpp": 50000,
+      "nominalBayar": 360000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Transfer BCA",
+      "akunKas": "Bank BCA Operasional",
+      "status": "COMPLETED",
+      "kasirName": "Kasir Sari (Pangkalan Balai)",
+      "shiftId": "shift-pkb-01",
+      "idempotencyKey": "idemp-pkb-003",
+      "createdAt": "2026-10-29T10:20:00+07:00",
+      "updatedAt": "2026-10-29T10:20:00+07:00"
+    },
+    {
+      "id": "trx-sh-004",
+      "invoiceNumber": "INV/SH/20261029/0002",
+      "branchId": "spring-hill",
+      "customerId": "WALK-IN",
+      "isWalkIn": true,
+      "customerSnapshot": {
+        "nama": "Walk-in Guest Ny. Ratna",
+        "telepon": "081922334455"
+      },
+      "items": [
+        {
+          "id": "item-8",
+          "itemType": "SERVICE",
+          "referenceId": "srv-004",
+          "snapshotKode": "JS-LSR-04",
+          "snapshotNama": "Q-Switched Nd:YAG Laser Rejuvenation & Toning",
+          "snapshotHargaSatuan": 650000,
+          "snapshotHargaModal": 0,
+          "kuantitas": 1,
+          "diskon": 50000,
+          "subtotal": 600000,
+          "petugasDokter": "dr. Nadira SpKK"
+        },
+        {
+          "id": "item-9",
+          "itemType": "PRODUCT",
+          "referenceId": "prod-004",
+          "snapshotKode": "RCA-CRM-04",
+          "snapshotNama": "Ceramide Barrier Restoring Gel Cream 50g",
+          "snapshotHargaSatuan": 165000,
+          "snapshotHargaModal": 80000,
+          "kuantitas": 1,
+          "diskon": 0,
+          "subtotal": 165000
+        }
+      ],
+      "subtotalProduk": 165000,
+      "subtotalJasa": 600000,
+      "totalDiskon": 50000,
+      "pajak": 0,
+      "totalTagihan": 765000,
+      "totalHpp": 80000,
+      "nominalBayar": 765000,
+      "kembalian": 0,
+      "sisaTagihan": 0,
+      "metodePembayaran": "Mandiri EDC",
+      "akunKas": "Bank Mandiri Klinik",
+      "status": "COMPLETED",
+      "kasirName": "Kasir Rina (Spring Hill)",
+      "shiftId": "shift-sh-01",
+      "idempotencyKey": "idemp-sh-004",
+      "createdAt": "2026-10-29T11:00:00+07:00",
+      "updatedAt": "2026-10-29T11:00:00+07:00"
+    }
+  ],
+  "expenses": [
+    {
+      "branchId": "spring-hill",
+      "type": "EXPENSE",
+      "tanggal": "2026-10-29",
+      "kategori": "Lain-lain",
+      "deskripsi": "Pengeluaran uji reversal",
+      "nominal": 50000,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "petugasInput": "QA Tester",
+      "pemberiPersetujuan": "QA Head",
+      "status": "reversed",
+      "id": "exp-1793274165413",
+      "transactionNumber": "EXP/SH/202610/004",
+      "createdAt": "2026-10-29T11:42:45.413Z",
+      "catatan": "[REVERSED oleh QA Tester]: Koreksi salah input nota. ",
+      "updatedAt": "2026-10-29T11:42:45.413Z"
+    },
+    {
+      "branchId": "spring-hill",
+      "type": "EXPENSE",
+      "tanggal": "2026-10-29",
+      "kategori": "Lain-lain",
+      "deskripsi": "Pengeluaran uji reversal",
+      "nominal": 50000,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "petugasInput": "QA Tester",
+      "pemberiPersetujuan": "QA Head",
+      "status": "reversed",
+      "id": "exp-1793274128477",
+      "transactionNumber": "EXP/SH/202610/003",
+      "createdAt": "2026-10-29T11:42:08.477Z",
+      "catatan": "[REVERSED oleh QA Tester]: Koreksi salah input nota. ",
+      "updatedAt": "2026-10-29T11:42:08.477Z"
+    },
+    {
+      "branchId": "spring-hill",
+      "type": "EXPENSE",
+      "tanggal": "2026-10-29",
+      "kategori": "Lain-lain",
+      "deskripsi": "Pengeluaran uji reversal",
+      "nominal": 50000,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "petugasInput": "QA Tester",
+      "pemberiPersetujuan": "QA Head",
+      "status": "reversed",
+      "id": "exp-1793273284512",
+      "transactionNumber": "EXP/SH/202610/002",
+      "createdAt": "2026-10-29T11:28:04.512Z",
+      "catatan": "[REVERSED oleh QA Tester]: Koreksi salah input nota. ",
+      "updatedAt": "2026-10-29T11:28:04.512Z"
+    },
+    {
+      "id": "exp-001",
+      "transactionNumber": "EXP/SH/202610/001",
+      "type": "EXPENSE",
+      "branchId": "spring-hill",
+      "tanggal": "2026-10-25",
+      "kategori": "Bahan Treatment Klinis",
+      "deskripsi": "Restock Kasa Steril, Jarum Insulin Meso 32G, Spuit, Gel Ultrasonic Laser",
+      "nominal": 350000,
+      "metodePembayaran": "Transfer BCA",
+      "akunKas": "Bank BCA Operasional",
+      "petugasInput": "Supervisor Siska",
+      "pemberiPersetujuan": "dr. Nadira (Branch Head)",
+      "status": "approved",
+      "createdAt": "2026-10-25T10:00:00+07:00"
+    },
+    {
+      "id": "exp-002",
+      "transactionNumber": "EXP/SDR/202610/002",
+      "type": "EXPENSE",
+      "branchId": "sudirman",
+      "tanggal": "2026-10-26",
+      "kategori": "Listrik & Utilitas",
+      "deskripsi": "Tagihan Listrik PLN Pascabayar dan Internet Fiber Sudirman",
+      "nominal": 420000,
+      "metodePembayaran": "Transfer BCA",
+      "akunKas": "Bank BCA Operasional",
+      "petugasInput": "Dimas Admin",
+      "pemberiPersetujuan": "Manager Sudirman",
+      "status": "approved",
+      "createdAt": "2026-10-26T13:30:00+07:00"
+    },
+    {
+      "id": "exp-003",
+      "transactionNumber": "EXP/PKB/202610/003",
+      "type": "EXPENSE",
+      "branchId": "pangkalan-balai",
+      "tanggal": "2026-10-27",
+      "kategori": "Logistik & Pengiriman",
+      "deskripsi": "Ongkos kirim ekspedisi paket produk skincare dari gudang pusat ke Pangkalan Balai",
+      "nominal": 125000,
+      "metodePembayaran": "Cash",
+      "akunKas": "Kas Tunai Kasir",
+      "petugasInput": "Kasir Sari",
+      "pemberiPersetujuan": "Manager Pangkalan Balai",
+      "status": "approved",
+      "createdAt": "2026-10-27T09:45:00+07:00"
+    },
+    {
+      "id": "inc-001",
+      "transactionNumber": "INC/SH/202610/001",
+      "type": "OTHER_INCOME",
+      "branchId": "spring-hill",
+      "tanggal": "2026-10-27",
+      "kategori": "Pemasukan Lainnya",
+      "deskripsi": "Pemasukan komisi kemitraan sponsor brand botol eco-friendly",
+      "nominal": 200000,
+      "metodePembayaran": "Transfer BCA",
+      "akunKas": "Bank BCA Operasional",
+      "petugasInput": "Finance Melly",
+      "pemberiPersetujuan": "Direktur RCA",
+      "status": "approved",
+      "createdAt": "2026-10-27T16:00:00+07:00"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "shift-sh-01",
+      "branchId": "spring-hill",
+      "kasirName": "Kasir Rina (Spring Hill)",
+      "startTime": "2026-10-29T08:00:00+07:00",
+      "modalAwal": 500000,
+      "totalPenjualanCash": 0,
+      "totalPenjualanNonCash": 765000,
+      "totalPengeluaranKas": 0,
+      "status": "open"
+    },
+    {
+      "id": "shift-sdr-01",
+      "branchId": "sudirman",
+      "kasirName": "Kasir Dimas (Sudirman)",
+      "startTime": "2026-10-29T08:00:00+07:00",
+      "modalAwal": 500000,
+      "totalPenjualanCash": 275000,
+      "totalPenjualanNonCash": 0,
+      "totalPengeluaranKas": 0,
+      "status": "open"
+    },
+    {
+      "id": "shift-pkb-01",
+      "branchId": "pangkalan-balai",
+      "kasirName": "Kasir Sari (Pangkalan Balai)",
+      "startTime": "2026-10-29T08:00:00+07:00",
+      "modalAwal": 300000,
+      "totalPenjualanCash": 0,
+      "totalPenjualanNonCash": 360000,
+      "totalPengeluaranKas": 125000,
+      "status": "open"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-1793274165415-o7bnx",
+      "timestamp": "2026-10-29T11:42:45.415Z",
+      "user": "QA Restore Pre-Test",
+      "action": "GENERATE_BACKUP_SNAPSHOT",
+      "details": {
+        "summary": {
+          "branchCount": 3,
+          "productCount": 6,
+          "serviceCount": 5,
+          "customerCount": 4,
+          "transactionCount": 13,
+          "expenseCount": 7,
+          "shiftCount": 3
+        }
+      }
+    },
+    {
+      "id": "aud-1793274165415-8zwn5",
+      "timestamp": "2026-10-29T11:42:45.415Z",
+      "user": "QA Backup Engine",
+      "action": "GENERATE_BACKUP_SNAPSHOT",
+      "details": {
+        "summary": {
+          "branchCount": 3,
+          "productCount": 6,
+          "serviceCount": 5,
+          "customerCount": 4,
+          "transactionCount": 13,
+          "expenseCount": 7,
+          "shiftCount": 3
+        }
+      }
+    },
+    {
+      "id": "aud-1793274165415-ydrgg",
+      "timestamp": "2026-10-29T11:42:45.415Z",
+      "user": "QA Branch Tester",
+      "action": "UPDATE_BRANCH",
+      "details": {
+        "branchId": "spring-hill",
+        "updates": {
+          "phone": "(0711) 567890 / 0812-7890-1111"
+        }
+      }
+    },
+    {
+      "id": "aud-1793274165415-o0ak0",
+      "timestamp": "2026-10-29T11:42:45.415Z",
+      "user": "QA Branch Tester",
+      "action": "UPDATE_BRANCH",
+      "details": {
+        "branchId": "spring-hill",
+        "updates": {
+          "phone": "(0711) 567890 / 0812-7890-1111 (Update QA)",
+          "managerName": "dr. Amanda SpKK (Kepala Medis)",
+          "email": "springhill-center@rcaskincare.co.id"
+        }
+      }
+    },
+    {
+      "id": "aud-1793274165415-ni1c7",
+      "timestamp": "2026-10-29T11:42:45.415Z",
+      "user": "QA Tester",
+      "action": "DELETE_PRODUCT",
+      "details": {
+        "id": "prod-1793274165414-6r0q",
+        "name": "Imported Test Cleanser Gel"
+      }
+    },
+    {
+      "id": "aud-1793274165414-7es2u",
+      "timestamp": "2026-10-29T11:42:45.414Z",
+      "user": "QA Tester",
+      "action": "BATCH_IMPORT_PRODUCTS",
+      "details": {
+        "total": 1,
+        "inserted": 1,
+        "updated": 0,
+        "errorsCount": 0
+      }
+    },
+    {
+      "id": "aud-1793274165414-h897r",
+      "timestamp": "2026-10-29T11:42:45.414Z",
+      "user": "QA Tester",
+      "action": "DELETE_PRODUCT",
+      "details": {
+        "id": "prod-1793274165414",
+        "name": "Test Product CRUD Edited"
+      }
+    },
+    {
+      "id": "aud-1793274165414-ub3xm",
+      "timestamp": "2026-10-29T11:42:45.414Z",
+      "user": "QA Tester",
+      "action": "UPDATE_PRODUCT",
+      "details": {
+        "id": "prod-1793274165414",
+        "updates": {
+          "namaProduk": "Test Product CRUD Edited",
+          "hargaJual": 65000,
+          "stokPerCabang": {
+            "spring-hill": 15,
+            "sudirman": 5,
+            "pangkalan-balai": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "aud-1793274165414-8cp64",
+      "timestamp": "2026-10-29T11:42:45.414Z",
+      "user": "QA Tester",
+      "action": "CREATE_PRODUCT",
+      "details": {
+        "id": "prod-1793274165414",
+        "code": "TEST-CRUD-01",
+        "name": "Test Product CRUD Verification"
+      }
+    },
+    {
+      "id": "aud-1793274165413-b4ln9",
+      "timestamp": "2026-10-29T11:42:45.413Z",
+      "user": "QA Tester",
+      "action": "REVERSE_EXPENSE",
+      "details": {
+        "id": "exp-1793274165413",
+        "transactionNumber": "EXP/SH/202610/004",
+        "reason": "Koreksi salah input nota"
+      }
+    },
+    {
+      "id": "aud-1793274165413-m8jcm",
+      "timestamp": "2026-10-29T11:42:45.413Z",
+      "user": "QA Tester",
+      "action": "CREATE_EXPENSE_INCOME",
+      "details": {
+        "id": "exp-1793274165413",
+        "transactionNumber": "EXP/SH/202610/004",
+        "nominal": 50000,
+        "type": "EXPENSE"
+      }
+    },
+    {
+      "id": "aud-1793274165413-qxudm",
+      "timestamp": "2026-10-29T11:42:45.413Z",
+      "user": "QA Tester",
+      "action": "UPDATE_SERVICE",
+      "details": {
+        "id": "srv-001",
+        "updates": {
+          "hargaDasar": 330000
+        },
+        "reason": "Uji Kenaikan Tarif"
+      }
+    },
+    {
+      "id": "aud-1793274165412-fb1m8",
+      "timestamp": "2026-10-29T11:42:45.412Z",
+      "user": "QA Tester",
+      "action": "REFUND_TRANSACTION",
+      "details": {
+        "id": "trx-1793274165412-oxgbd",
+        "invoiceNumber": "INV/PKB/20261029/0004",
+        "refundAmount": 350000,
+        "reason": "Barang salah beli oleh customer"
+      }
+    },
+    {
+      "id": "aud-1793274165412-0kgy0",
+      "timestamp": "2026-10-29T11:42:45.412Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793274165412-oxgbd",
+        "invoiceNumber": "INV/PKB/20261029/0004",
+        "branchId": "pangkalan-balai",
+        "totalTagihan": 350000,
+        "itemCount": 1
+      }
+    },
+    {
+      "id": "aud-1793274165412-sdi1z",
+      "timestamp": "2026-10-29T11:42:45.412Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793274165412-2036d",
+        "invoiceNumber": "INV/SDR/20261029/0003",
+        "branchId": "sudirman",
+        "totalTagihan": 95000,
+        "itemCount": 1
+      }
+    },
+    {
+      "id": "aud-1793274165411-tg9dz",
+      "timestamp": "2026-10-29T11:42:45.411Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793274165411-cck3k",
+        "invoiceNumber": "INV/SH/20261029/0004",
+        "branchId": "spring-hill",
+        "totalTagihan": 375000,
+        "itemCount": 2
+      }
+    },
+    {
+      "id": "aud-1793274128478-e9trc",
+      "timestamp": "2026-10-29T11:42:08.478Z",
+      "user": "QA Tester",
+      "action": "DELETE_PRODUCT",
+      "details": {
+        "id": "prod-1793274128478-75sp",
+        "name": "Imported Test Cleanser Gel"
+      }
+    },
+    {
+      "id": "aud-1793274128478-0s5g4",
+      "timestamp": "2026-10-29T11:42:08.478Z",
+      "user": "QA Tester",
+      "action": "BATCH_IMPORT_PRODUCTS",
+      "details": {
+        "total": 1,
+        "inserted": 1,
+        "updated": 0,
+        "errorsCount": 0
+      }
+    },
+    {
+      "id": "aud-1793274128477-xi6f7",
+      "timestamp": "2026-10-29T11:42:08.477Z",
+      "user": "QA Tester",
+      "action": "DELETE_PRODUCT",
+      "details": {
+        "id": "prod-1793274128477",
+        "name": "Test Product CRUD Edited"
+      }
+    },
+    {
+      "id": "aud-1793274128477-0jcrd",
+      "timestamp": "2026-10-29T11:42:08.477Z",
+      "user": "QA Tester",
+      "action": "UPDATE_PRODUCT",
+      "details": {
+        "id": "prod-1793274128477",
+        "updates": {
+          "namaProduk": "Test Product CRUD Edited",
+          "hargaJual": 65000,
+          "stokPerCabang": {
+            "spring-hill": 15,
+            "sudirman": 5,
+            "pangkalan-balai": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "aud-1793274128477-krjkz",
+      "timestamp": "2026-10-29T11:42:08.477Z",
+      "user": "QA Tester",
+      "action": "CREATE_PRODUCT",
+      "details": {
+        "id": "prod-1793274128477",
+        "code": "TEST-CRUD-01",
+        "name": "Test Product CRUD Verification"
+      }
+    },
+    {
+      "id": "aud-1793274128477-srsmp",
+      "timestamp": "2026-10-29T11:42:08.477Z",
+      "user": "QA Tester",
+      "action": "REVERSE_EXPENSE",
+      "details": {
+        "id": "exp-1793274128477",
+        "transactionNumber": "EXP/SH/202610/003",
+        "reason": "Koreksi salah input nota"
+      }
+    },
+    {
+      "id": "aud-1793274128477-79d1l",
+      "timestamp": "2026-10-29T11:42:08.477Z",
+      "user": "QA Tester",
+      "action": "CREATE_EXPENSE_INCOME",
+      "details": {
+        "id": "exp-1793274128477",
+        "transactionNumber": "EXP/SH/202610/003",
+        "nominal": 50000,
+        "type": "EXPENSE"
+      }
+    },
+    {
+      "id": "aud-1793274128477-qgygz",
+      "timestamp": "2026-10-29T11:42:08.477Z",
+      "user": "QA Tester",
+      "action": "UPDATE_SERVICE",
+      "details": {
+        "id": "srv-001",
+        "updates": {
+          "hargaDasar": 280000
+        },
+        "reason": "Uji Kenaikan Tarif"
+      }
+    },
+    {
+      "id": "aud-1793274128476-cdamm",
+      "timestamp": "2026-10-29T11:42:08.476Z",
+      "user": "QA Tester",
+      "action": "REFUND_TRANSACTION",
+      "details": {
+        "id": "trx-1793274128476-7ypux",
+        "invoiceNumber": "INV/PKB/20261029/0003",
+        "refundAmount": 350000,
+        "reason": "Barang salah beli oleh customer"
+      }
+    },
+    {
+      "id": "aud-1793274128476-t8653",
+      "timestamp": "2026-10-29T11:42:08.476Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793274128476-7ypux",
+        "invoiceNumber": "INV/PKB/20261029/0003",
+        "branchId": "pangkalan-balai",
+        "totalTagihan": 350000,
+        "itemCount": 1
+      }
+    },
+    {
+      "id": "aud-1793274128476-d30iz",
+      "timestamp": "2026-10-29T11:42:08.476Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793274128476-b7mua",
+        "invoiceNumber": "INV/SDR/20261029/0002",
+        "branchId": "sudirman",
+        "totalTagihan": 95000,
+        "itemCount": 1
+      }
+    },
+    {
+      "id": "aud-1793274128475-bzrm0",
+      "timestamp": "2026-10-29T11:42:08.475Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793274128475-bq5m7",
+        "invoiceNumber": "INV/SH/20261029/0003",
+        "branchId": "spring-hill",
+        "totalTagihan": 325000,
+        "itemCount": 2
+      }
+    },
+    {
+      "id": "aud-1793273284513-nzdvy",
+      "timestamp": "2026-10-29T11:28:04.513Z",
+      "user": "QA Tester",
+      "action": "DELETE_PRODUCT",
+      "details": {
+        "id": "prod-1793273284513-qqmz",
+        "name": "Imported Test Cleanser Gel"
+      }
+    },
+    {
+      "id": "aud-1793273284513-qtu5w",
+      "timestamp": "2026-10-29T11:28:04.513Z",
+      "user": "QA Tester",
+      "action": "BATCH_IMPORT_PRODUCTS",
+      "details": {
+        "total": 1,
+        "inserted": 1,
+        "updated": 0,
+        "errorsCount": 0
+      }
+    },
+    {
+      "id": "aud-1793273284512-jt14d",
+      "timestamp": "2026-10-29T11:28:04.512Z",
+      "user": "QA Tester",
+      "action": "DELETE_PRODUCT",
+      "details": {
+        "id": "prod-1793273284512",
+        "name": "Test Product CRUD Edited"
+      }
+    },
+    {
+      "id": "aud-1793273284512-ukpxd",
+      "timestamp": "2026-10-29T11:28:04.512Z",
+      "user": "QA Tester",
+      "action": "UPDATE_PRODUCT",
+      "details": {
+        "id": "prod-1793273284512",
+        "updates": {
+          "namaProduk": "Test Product CRUD Edited",
+          "hargaJual": 65000,
+          "stokPerCabang": {
+            "spring-hill": 15,
+            "sudirman": 5,
+            "pangkalan-balai": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "aud-1793273284512-veseh",
+      "timestamp": "2026-10-29T11:28:04.512Z",
+      "user": "QA Tester",
+      "action": "CREATE_PRODUCT",
+      "details": {
+        "id": "prod-1793273284512",
+        "code": "TEST-CRUD-01",
+        "name": "Test Product CRUD Verification"
+      }
+    },
+    {
+      "id": "aud-1793273284512-4846c",
+      "timestamp": "2026-10-29T11:28:04.512Z",
+      "user": "QA Tester",
+      "action": "REVERSE_EXPENSE",
+      "details": {
+        "id": "exp-1793273284512",
+        "transactionNumber": "EXP/SH/202610/002",
+        "reason": "Koreksi salah input nota"
+      }
+    },
+    {
+      "id": "aud-1793273284512-3ja34",
+      "timestamp": "2026-10-29T11:28:04.512Z",
+      "user": "QA Tester",
+      "action": "CREATE_EXPENSE_INCOME",
+      "details": {
+        "id": "exp-1793273284512",
+        "transactionNumber": "EXP/SH/202610/002",
+        "nominal": 50000,
+        "type": "EXPENSE"
+      }
+    },
+    {
+      "id": "aud-1793273284511-0z76o",
+      "timestamp": "2026-10-29T11:28:04.511Z",
+      "user": "QA Tester",
+      "action": "UPDATE_SERVICE",
+      "details": {
+        "id": "srv-001",
+        "updates": {
+          "hargaDasar": 230000
+        },
+        "reason": "Uji Kenaikan Tarif"
+      }
+    },
+    {
+      "id": "aud-1793273284511-azob6",
+      "timestamp": "2026-10-29T11:28:04.511Z",
+      "user": "QA Tester",
+      "action": "REFUND_TRANSACTION",
+      "details": {
+        "id": "trx-1793273284510-wjjn0",
+        "invoiceNumber": "INV/PKB/20261029/0002",
+        "refundAmount": 350000,
+        "reason": "Barang salah beli oleh customer"
+      }
+    },
+    {
+      "id": "aud-1793273284510-c9lqi",
+      "timestamp": "2026-10-29T11:28:04.510Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793273284510-wjjn0",
+        "invoiceNumber": "INV/PKB/20261029/0002",
+        "branchId": "pangkalan-balai",
+        "totalTagihan": 350000,
+        "itemCount": 1
+      }
+    },
+    {
+      "id": "aud-1793273284510-z2emr",
+      "timestamp": "2026-10-29T11:28:04.510Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793273284510-fpn0s",
+        "invoiceNumber": "INV/SDR/20261029/0001",
+        "branchId": "sudirman",
+        "totalTagihan": 95000,
+        "itemCount": 1
+      }
+    },
+    {
+      "id": "aud-1793273284510-aopcg",
+      "timestamp": "2026-10-29T11:28:04.510Z",
+      "user": "QA Tester",
+      "action": "POS_CHECKOUT",
+      "details": {
+        "transactionId": "trx-1793273284510-5nmja",
+        "invoiceNumber": "INV/SH/20261029/0002",
+        "branchId": "spring-hill",
+        "totalTagihan": 275000,
+        "itemCount": 2
+      }
+    },
+    {
+      "id": "aud-001",
+      "timestamp": "2026-10-29T10:50:00.626Z",
+      "user": "System Bootstrapper",
+      "action": "INITIALIZE_RCA_DATABASE",
+      "details": {
+        "branches": 3,
+        "products": 6,
+        "services": 5
+      }
+    }
+  ],
+  "branches": [
+    {
+      "id": "spring-hill",
+      "name": "RCA Skincare - Spring Hill Pusat",
+      "code": "SH",
+      "address": "Ruko Spring Hill Garden Blok A No. 12, Jl. Mayor Santoso, Palembang",
+      "phone": "(0711) 567890 / 0812-7890-1111",
+      "headerNote": "Klinik Utama & Laser Aesthetic Center",
+      "managerName": "dr. Amanda SpKK (Kepala Medis)",
+      "email": "springhill-center@rcaskincare.co.id",
+      "isActive": true
+    },
+    {
+      "id": "sudirman",
+      "name": "RCA Skincare - Cabang Sudirman",
+      "code": "SDR",
+      "address": "Jl. Jenderal Sudirman No. 88, Ilir Timur, Palembang",
+      "phone": "(0711) 456789 / 0812-7890-2222",
+      "headerNote": "Klinik Pratama & Facial Bar",
+      "managerName": "Rian Pratama, S.Farm (Branch Manager)",
+      "email": "sudirman@rcaskincare.co.id",
+      "isActive": true
+    },
+    {
+      "id": "pangkalan-balai",
+      "name": "RCA Skincare - Cabang Pangkalan Balai",
+      "code": "PKB",
+      "address": "Jl. Merdeka No. 45, Pangkalan Balai, Banyuasin",
+      "phone": "(0711) 890123 / 0812-7890-3333",
+      "headerNote": "Klinik Pratama & Skincare Lounge",
+      "managerName": "dr. Fajar Aesthetic (Branch Head)",
+      "email": "pangkalanbalai@rcaskincare.co.id",
+      "isActive": true
+    }
+  ],
+  "systemSettings": {
+    "clinicName": "RCA Skincare Clinic & Aesthetic Center",
+    "tagline": "Klinik Estetika & Skincare Center Terpadu Palembang",
+    "defaultTaxPercentage": 0,
+    "operatingHours": "Senin - Minggu: 08:00 - 20:00 WIB",
+    "currencySymbol": "Rp",
+    "receiptFooter": "Terima kasih atas kepercayaan Anda merawat kulit di RCA Skincare. Produk yang sudah dibeli tidak dapat ditukar kecuali cacat segel saat diterima.",
+    "phonePusat": "(0711) 567890 / 0812-7890-1111",
+    "emailPusat": "care@rcaskincare.co.id",
+    "website": "https://rcaskincare.co.id",
+    "updatedAt": "2026-10-29T11:42:44.093Z",
+    "updatedBy": "System Bootstrapper"
+  }
+}
